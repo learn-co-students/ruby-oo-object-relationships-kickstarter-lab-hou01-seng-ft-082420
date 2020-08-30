@@ -11,6 +11,6 @@ class Project
     end
 
     def backers
-        ((ProjectBacker.all.select {|pb| pb.project == self}).collect{|p| p.backer})
+        (ProjectBacker.all.select {|pb| pb.project == self}).collect{|p| p.backer}
     end
 end
