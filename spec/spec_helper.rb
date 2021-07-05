@@ -1,3 +1,4 @@
+require 'pry'
 require_relative '../lib/project'
 require_relative '../lib/backer'
 require_relative '../lib/project_backer'
@@ -11,3 +12,5 @@ require_relative '../lib/project_backer'
 RSpec.configure do |config|
   config.order = 'default'
 end
+
+#binding.pry
